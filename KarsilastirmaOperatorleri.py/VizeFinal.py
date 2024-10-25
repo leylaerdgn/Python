@@ -1,0 +1,5 @@
+vize=int(input("1. Vize: "))
+vize2=int(input("2. Vize: "))
+final=int(input("Final: "))
+ort=(vize+vize2)*0.4 + (final*0.6)
+print(f'ortalamanız: {ort} dersten geçme durumunuz: {ort>50} ')
