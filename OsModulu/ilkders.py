@@ -41,5 +41,8 @@ result=os.name
 #result=os.path.isdir("C:/Users/LEYLA ERDOĞAN/Desktop/Python/ForLoop.py")
 
 #Dosya mı?
-result=os.path.isfile("C:/Users/LEYLA ERDOĞAN/Desktop/Python/ForLoop.py")
+#result=os.path.isfile("C:/Users/LEYLA ERDOĞAN/Desktop/Python/ForLoop.py")
+
+#Farklı dizin veya dosya adlarını birleştirerek bir tam dosya yolu olusturmak için
+#result=os.path.join("C:\\","deneme","deneme1")
 print(result)

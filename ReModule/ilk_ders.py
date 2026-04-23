@@ -19,5 +19,5 @@ str="Python Kursu: Python Programlama Rehberiniz | 40 saat"
 
 #result=re.findall("^P",str)
 
-result=re.findall("t$",str)
+#result=re.findall("t$",str)
 print(result)

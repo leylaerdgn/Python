@@ -21,7 +21,6 @@ def loadUsers(self):
                 user=json.loads((user))
                 newUser=user(username=user['username'],password=user['password: '], email=user['email: '])
                 self.users.append(newUser)
-                print(self.users)
 
 def register(self, user:User):
     self.users.append(user)
