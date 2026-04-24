@@ -6,6 +6,7 @@ def faktoriyel(x):
     for i in range(1,x+1):
         result*=i
     return result
+#Bu raise anahtar kelimesi bir istisna oluşturmak için kullanılır.
 
 for x in [5, 10, 20, -3, '10a']:
     try:
