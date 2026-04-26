@@ -80,7 +80,6 @@ print(p5)  # özelleştirilmiş çıktı
 
 # 6. Çoklu metotlar
 print("\n---- Örnek 6: Çoklu metotlar ----")
-
 class Playlist:
     def __init__(self, name):
         self.name = name
@@ -108,7 +107,6 @@ my_playlist.show_songs()
 
 # 7. Metot silme
 print("\n---- Örnek 7: Metot silme ----")
-
 class Person6:
     def __init__(self, name):
         self.name = name
