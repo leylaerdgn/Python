@@ -32,3 +32,22 @@ def my_function2(*numbers):
 def my_function3(**kid):
   print("His last name is " + kid["lname"])
 #my_function3(fname = "Tobias", lname = "Refsnes")
+
+def bilgi(**kwargs):
+    print(kwargs)
+#bilgi(isim="Ali", yas=25, sehir="Isparta")
+
+def bilgi(**kwargs):
+    for key, value in kwargs.items():
+        print(key, ":", value)
+#bilgi(isim="Leyla", yas=20)
+
+
+#Default parametre değerleri
+#Parametrelere varsayılan değerler atayabilirsiniz. Fonksiyon argüman olmadan çağrıldığında varsayılan değeri kullanır:
+def my_function3(name = "friend"):
+  print("Hello", name)
+#my_function3("Emil")
+#my_function3("Tobias")
+#my_function3()
+#my_function3("Linus")

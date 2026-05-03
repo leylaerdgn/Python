@@ -1,6 +1,6 @@
 #Lambda, tek bir ifadeden oluşan küçük, isimsiz fonksiyonlardır. 
 #Normal def ile tanımlanan fonksiyonlardan farklı olarak tek satırda yazılır ve hemen kullanılır.
-#Söz Dizimi -> lambda argümanlar: ifade
+#Söz Dizimi -> lambda parametre: işlem
 def ornek1():
     x = lambda a: a + 10
     print(x(5))
